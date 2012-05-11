@@ -1,0 +1,13 @@
+Purpose of the Project
+======================
+To automate the file-creation process for your Sphinx documentation.  Helpful when you use the "glob" feature in Sphinx, where the tool automatically picks up all the files from the source directory.
+
+If you have a list of topics in your mind(on which you have to create documentation), then just list those topics in a topics.txt file. The script will create the documentaion's rst files. The generated rst files will have some sample content, taken from template.txt file.
+
+How the script works
+=====================
+You need to first edit/create the following files:
+
+* topics.txt : List down the topics on which you want to write the documentation. The topic will be the title of each rst file.
+
+* template.txt : Include only the common sub-headings. Do not include the title. The title will be taken from the topics.txt.

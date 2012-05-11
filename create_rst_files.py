@@ -1,7 +1,8 @@
 import os.path
 
 def readfile():
-	tempfile = "G:/TECHNICAL/TIBCO/EMS_study/EMSNotes_Sphinx/template.rst"
+	currdir = os.getcwd()
+	tempfile = currdir + "\\" + "template.txt"
 	input = open(tempfile,"r")
 	data = input.read()
 	return data
